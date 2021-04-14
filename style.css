@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #FFC295;
+    padding: 50px;
+}
+
+.component {
+    background-color: #ffff;
+    max-width: 500px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 25px 60px -38px rgba(159, 78, 28, 0.6);
+}
+
+.component time {
+    font-size: 16px;
+    color: #1A1B38;
+    margin-bottom: 45px;
+    display: block;
+}
+
+.component h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.component .tags {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    margin: 15px -5px -5px;
+}
+
+.component .tags a {
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #1A1B38;
+    border: 1px solid #1A1B38;
+    transition: 300ms background-color;
+}
+
+.component .tags a:hover {
+    background-color: #F9EAE3;
+}
+
+.component .authors {
+    padding-top: 20px;
+    color: #1A1B38;
+}
+
+.component .authors li {
+    display: flex;
+    align-items: center;
+}
+
+.component .authors li:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.component .authors li img {
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.component .authors li .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.component .authors li .location {
+    font-size: 16px;
+    background: url(img/icond/location.svg) no-repeat 0;
+    padding-left: 25px;
+}
+
+.component .authors li .follow-btn {
+    margin-left: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background: #FFC295;
+    padding: 0 15px;
+    border: 1px solid #1A1B38;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1A1B38;
+}
+
+.component .project-actions {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(26, 27, 56, .14);
+    height: 89px;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.component .project-actions li {
+    display: flex;
+    align-items: center;
+}
+
+.component .project-actions li img {
+    margin-right: 10px;
+}
+
+.component .btn {
+    height: 54px;
+    display: inline-flex;
+    align-items: center;
+    background: #FFC295;
+    padding: 0 15px;
+    border: 1px solid #1A1B38;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1A1B38;
+}
